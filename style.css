@@ -1,0 +1,207 @@
+ body{
+            background-image: url("https://i.pinimg.com/564x/0b/95/26/0b95263ea7361a1062b3d153805f9f8b.jpg");
+            font-family: Arial, sans-serif;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+           display: flex;
+           flex-direction: column;
+           max-width:100%;
+           
+        }
+
+        h1{
+            border:1px solid black;
+        
+            max-width: 100%;
+            background-color:rgba(255, 255, 255, 0.527) ;
+            text-align:center;
+            
+            }
+            
+    
+
+
+        .h2{
+            border:1px solid black;
+            margin-top:-20px;
+            background-color:rgba(255, 255, 255, 0.527) ;
+            text-align:left;
+            
+        }
+        .h3{
+            margin-top: 1.3px;
+            height:30px;
+            border:1px solid black;
+          
+            background-color:rgba(255, 255, 255, 0.527) ;
+        }
+      span > .fa-home{
+        font-size: 1.5rem;
+        padding-right: 5px;
+            padding-left: 5px;
+            height: 20px;
+            margin-left:0.5em ;
+            cursor:pointer;
+        }
+        .fa-home:hover{
+            padding:3px;
+            background-color: rgba(203, 213, 216, 0.664);
+        }
+         
+
+ 
+        .fa-plus-square{ 
+           margin-left:77%;  
+            font-size: 1.5rem ;
+            cursor:pointer;
+        } 
+        .fa-plus-square:hover{
+            padding:3px;
+            background-color: rgba(203, 213, 216, 0.664);
+        } 
+        .fa-user{
+            font-size: 1.5rem ;
+            cursor:pointer;           
+        }
+        .fa-user:hover{
+            padding:1px;
+            border: 1px solid black;
+            background-color: rgba(203, 213, 216, 0.664);
+        }
+        span > .boards{
+            margin-top:-22rem;
+             height:34px;
+             width:100px;
+             margin-right:0.08rem;
+             font-weight: bold;
+             cursor:pointer;
+         }
+         span > .search{
+             border:0.4px solid black;
+             background-color: rgba(255, 240, 245, 0.226);
+             height:34px;
+             width:100px;
+             margin-left:0.01px;
+             margin-right: 0.01rem;
+             cursor:pointer;
+         }
+           
+           .search:hover{
+            background-color: rgba(210, 231, 235, 0.911) ;  
+           }
+         
+           .searchbutton{
+            font-size:20px;
+            background-color: rgba(210, 231, 235, 0.911) ;
+            cursor:pointer;
+               }
+        
+           .searchbutton:hover{
+               margin-left:0.1rem;
+            border:none;
+            font-size:20px;
+            background-color: rgba(210, 231, 235, 0.911) ;
+
+           }
+        
+        .fa-ellipsis-h:hover{
+            border:none;
+            padding:1em;
+            font-size:20px;
+            background-color: rgba(210, 231, 235, 0.911) ;
+            
+        }
+        .fa-ellipsis-v:hover{
+            border:none;
+            padding:1em;
+            font-size:20px;
+            background-color: rgba(210, 231, 235, 0.911) ;
+        }
+   
+        
+        ul{ text-decoration: none;
+            border:1px solid black;
+            background-color:rgba(255, 255, 255, 0.527) ;
+            cursor:pointer;
+        }
+/*this aligns all contents sidebyside using section*/
+        .list-container{
+           
+            display: flex;
+           align-items: start;
+           overflow-x: auto;
+          align-self: flex-start;
+          text-align: left;
+          font-size: 1.4rem;
+          font-weight: 400;
+          padding: 0.65rem 0.6rem;
+          margin-bottom: 0.6rem; 
+          word-wrap: normal;
+           cursor: pointer;
+          
+        }
+        
+    
+        li:hover{
+           border:1px solid black;
+            background-color: rgba(255, 255, 255, 0.527) ;
+            
+        }
+              
+        .Add-card{
+            border:none;
+            padding:3px;
+            width:150px;
+            height:40px;
+            background-color:rgba(255, 240, 245, 0.075);
+            cursor:pointer;
+           
+        }
+        .Add-card:hover{
+           
+           background-color: rgba(210, 231, 235, 0.952) ;
+       }
+        .fa-times:hover{
+            border:none;
+            font-size:20px;
+            background-color: rgba(210, 231, 235, 0.13) ;
+        }
+        .Add-list{
+            width:180px;
+            padding:3px;
+            height:40px;
+            background-color:rgba(255, 240, 245, 0.075);
+            border:none;
+            cursor:pointer;
+        }
+
+
+        .Add-list:hover{
+           
+            background-color: rgba(210, 231, 235, 0.952) ;
+        }
+        #title{
+            width:172px;
+            height:60px;
+        }
+
+        
+        #front:hover{
+            height:30px;
+            background-color: rgba(135, 195, 222, 0.575);
+        }
+        #showmenu{
+            margin-left:79%;
+            cursor:pointer;
+        }
+        #showmenu:hover{
+            height:30px;
+            background-color: rgba(135, 195, 222, 0.575); 
+        }
+        #btn{
+           height:30px;
+           background-color: rgba(135, 195, 222, 0.575);
+           border:none;
+           cursor:pointer;
+        }
