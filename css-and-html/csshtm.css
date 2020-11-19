@@ -108,14 +108,12 @@ span > .boards{
 
 .fa-ellipsis-h:hover{
     border:none;
-    
     font-size:15px;
     background-color: rgba(210, 231, 235, 0.911) ;
     
 }
 .fa-ellipsis-v:hover{
     border:none;
-   
     font-size:15px;
     background-color: rgba(210, 231, 235, 0.911) ;
 }
